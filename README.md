@@ -1,6 +1,7 @@
 # NetHunter Kernel for Nothing Phone 1
 
 Professional NetHunter kernel for Nothing Phone 1 (Spacewar) with Snapdragon 778G.
+I have made 2 Versions (with Claude 4.0's help), so if you want only the nethunter kernel, download nethunter-v1.0-pure-power.gz and if you want the whole arsenal,download nethunter-v2.0-complete-arsenal.gz
 
 ## Features
 - USB HID Gadget (BadUSB attacks)
