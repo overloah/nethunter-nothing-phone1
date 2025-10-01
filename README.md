@@ -1,9 +1,3 @@
-Doku
-
-
-
-bash
-cat > README.md << 'ENDREADME'
 # 🎯 NetHunter Kernel for Nothing Phone 1
 
 [![Kernel](https://img.shields.io/badge/Kernel-5.4.147--nethunter-blue)](https://github.com/overloah/nethunter-nothing-phone1)
