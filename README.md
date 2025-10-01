@@ -31,3 +31,23 @@ fastboot reboot
 - **Status:** Production ready
 
 Built with precision for the security research community.
+
+## 🛠️ **BadUSB Tools Included**
+
+### Ready-to-Use Payloads
+- **Windows Recon** - System information gathering
+- **Linux Terminal** - Command execution
+- **Custom Generator** - Create your own payloads
+
+### Usage
+
+Generate payloads
+
+python3 tools/badusb-generator.py
+Deploy to NetHunter device
+
+adb push tools/ /data/local/nethunter/
+
+text
+
+**Complete penetration testing arsenal for Nothing Phone 1!**
