@@ -18,6 +18,7 @@ wget https://github.com/overloah/nethunter-nothing-phone1/releases/latest/downlo
 adb reboot bootloader
 fastboot flash boot nethunter-spacewar-kernel.gz
 fastboot reboot
+
 ## Documentation
 - [Troubleshooting Guide](docs/TROUBLESHOOTING.md)
 - [Installation Guide](docs/INSTALLATION.md)  
@@ -29,8 +30,6 @@ fastboot reboot
 - **SoC:** Snapdragon 778G (SM7325)
 - **Kernel:** 5.4.147-nethunter-spacewar
 - **Status:** Production ready
-
-Built with precision for the security research community.
 
 ## 🛠️ **BadUSB Tools Included**
 
@@ -48,6 +47,6 @@ Deploy to NetHunter device
 
 adb push tools/ /data/local/nethunter/
 
-text
-
 **Complete penetration testing arsenal for Nothing Phone 1!**
+
+Built with precision for the security research community.
